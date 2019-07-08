@@ -6,6 +6,9 @@ const greeting = document.getElementById('greeting');
 const name = document.getElementById('name');
 const focus = document.getElementById('focus');
 
+// Options
+const showAmPm = true;
+
 //show time
 function showTime (){
     let today = new Date(), hour = today.getHours(), min = today.getMinutes(), sec = today.getSeconds();
@@ -103,6 +106,6 @@ function getName() {
 
   // Run
   showTime();
-  setBgGreet();
+  setbgGreet();
   getName();
   getFocus();
